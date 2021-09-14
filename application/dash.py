@@ -398,7 +398,7 @@ body = html.Div([
                     " relevancia en la agenda seguridad pública del país, también. "
                   " Entre 2015 y 2021 se registraron "+ str(f"{int(TOTSEGSEX):,}") +" casos, lo que representa una tasa de "+
        str(TASASEGSEX) +" delitos por cada 100 mil habitantes. "+
-                  "Este dashboard analítico se compone "
+                  "Este tablero analítico se compone "
                     " de una sección en la cual tratamos otros delitos que atentan contra la vida y la integridad corporal,"
                     " observamos su gravedad según intervalos anuales o mensuales; incluimos el análisis detallado de cuatro "
                     "entidades con más incidencias de este delito; finalmente, comparamos los rankings por entidad según "
@@ -702,14 +702,14 @@ body = html.Div([
                 html.Br(),
                 html.H4("Metodología "),
                 html.P(
-                    "El presente dashboard es un ejercicio institucional con el objeto de "
+                    "El presente tablero es un ejercicio institucional con el objeto de "
                     "informar a las diputadas y diputados y público interesado sobre un tema "
                     "de vital importancia en la vida política. "
                     "La metodología que hemos empleado para analizar los datos la detallamos enseguida. "
                     "Como se indica en cada caso, la información sobre el delito aborto "
                     "fue obtenida del Secretariado Ejecutivo Nacional del Sistema Nacional de Seguridad Pública (SENSNSP) (2015-2021); "
                     " "
-                    "Este dashboard seguramente será completado progresivamente con otras fuentes de información "
+                    "Este tablero seguramente será completado progresivamente con otras fuentes de información "
                     "tanto gubernamental, como aquella proveniente de organizaciones civiles que " 
                     "dan seguimiento al tema. "
                     "En ningún caso, este contenido representa algún "
