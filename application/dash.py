@@ -515,7 +515,7 @@ body = html.Div([
            [
                #dbc.Col(dbc.CardImg(src="https://github.com/fdealbam/CamaraDiputados/blob/main/application/static/logocamara.jfif?raw=true"),
                #         width={'size': 1,  "offset": 1}),
-               dbc.Col(html.P("contra la libertad y seguridad sexual"),
+               dbc.Col(html.P("Contra la libertad y seguridad sexual"),
                         style={"font-size": 86, "text-align": "center",
                               "text-shadow": "10px 20px 30px black",}),
            ], justify= "start"),
