@@ -723,8 +723,8 @@ body = html.Div([
     
      dbc.Row(
            [
-               dbc.Col(dbc.Button(([html.P("Veracruz de Ignacio de la llave", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual/blob/main/application/static/ver.jpeg?raw=true",
+               dbc.Col(dbc.Button(([html.P(edoname1, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual/blob/main/application/static/Mapa Veracruz de Ignacio de la Llave.png?raw=true",
                   style={'size': 2,}),
                           html.P(bulletedo1,
                      style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
@@ -735,8 +735,8 @@ body = html.Div([
                          
                          }, disabled=True)),
                
-              dbc.Col(dbc.Button(([html.P("Puebla", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual/blob/main/application/static/pue.jpeg?raw=true",
+              dbc.Col(dbc.Button(([html.P(edoname2, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual/blob/main/application/static//Mapa Puebla.png?raw=true",
                                     style={'size': 2,}),
                     
                           html.P(bulletedo2,
@@ -752,8 +752,8 @@ body = html.Div([
 
     
                 dbc.Row([
-         dbc.Col(dbc.Button(([html.P("Nuevo León", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual/blob/main/application/static/nvoleon.jpeg?raw=true"),
+         dbc.Col(dbc.Button(([html.P(edoname3, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual/blob/main/application/static/Mapa Nuevo León.png?raw=true"),
                     
                        html.P(bulletedo3,
                            style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
@@ -763,8 +763,8 @@ body = html.Div([
                         'width': '550px',
                          
                          }, disabled=True)),
-               dbc.Col(dbc.Button(([html.P("Tabasco", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/Otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual/blob/main/application/static/tab.jpeg?raw=true"),
+               dbc.Col(dbc.Button(([html.P(edoname4, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/Otros-delitos-que-atentan-contra-la-libertad-y-la-seguridad-sexual/blob/main/application/static/Mapa Tabasco.png?raw=true"),
     
                                                                 
                         html.P(bulletedo4,
